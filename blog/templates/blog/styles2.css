@@ -1,0 +1,94 @@
+*, ::after, ::before {
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    width: 100%;
+}
+
+.top {
+    background: url('assest/top.jpg') center;
+    background-size:cover;
+    width: 100%;
+    height: 140px;
+}
+
+.left {
+    width: 20%;
+    height: 600px;
+    float: left;
+    background: lightgreen;
+    background: url('assest/left.jpg') center;
+    background-size: cover;
+}
+
+.right {
+    width: 20%;
+    height: 600px;
+    float: right;
+    background: lightgreen;
+    background: url('assest/right.jpg') center;
+    background-size:80%, cover;
+}
+
+.center {
+    display: flex;
+    flex-wrap:wrap;
+    height: 600px;
+
+    background-color: black;
+}
+
+.photo {
+    display: flex;
+    width: 25%;
+    height: 400px;
+}
+
+.text {
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background: lightsalmon;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav {
+    margin: 0;
+    background-color: lightcoral;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.ul_li {
+    margin: 0px -7px 0 0;
+    display: inline-block;
+    background-color: #fe9798;
+}
+
+a {
+    display: block;
+    padding: 0 10px;
+    color: #ffff;
+    font-size: 23px;
+    line-height: 60px;
+}
+
+a:hover {
+    background-color: #fc575a;
+    text-decoration: none;
+}
